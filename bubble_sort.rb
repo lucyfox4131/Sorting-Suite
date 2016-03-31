@@ -2,7 +2,7 @@
 #due monday
 
 
-class BubbleSort
+class insertSort
 
   def initialize(array = [])
     @array = array

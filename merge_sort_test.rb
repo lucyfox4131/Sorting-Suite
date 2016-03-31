@@ -3,5 +3,5 @@ require "minitest/pride"
 require "./merge_sort"
 
 
-class BubbleSortTest < Minitest::Test
+class insertSortTest < Minitest::Test
 end
