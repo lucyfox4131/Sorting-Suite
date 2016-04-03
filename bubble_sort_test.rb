@@ -12,34 +12,27 @@ class BubbleSortTest < Minitest::Test
   end
 
   def test_if_empty_array_passed_through
-    skip
-    sorter = BubbleSort.new([])
-    assert_equal nil,sorter.sort
+    sorter = BubbleSort.new
+    assert_equal [],sorter.sort([])
   end
 
   def test_if_one_single_element_in_array
-    skip
-    sorter = BubbleSort.new([1])
-    assert_equal [1], sorter.sort
+
+    sorter = BubbleSort.new
+    assert_equal [1], sorter.sort([1])
   end
 
   def test_sort_on_array_with_several_chars
-    skip
-    sorter = BubbleSort.new(["d", "b", "a", "c"])
-    assert_equal ["a", "b", "c", "d"], sorter.sort
+
+    sorter = BubbleSort.new
+    assert_equal ["a", "b", "c", "d"], sorter.sort(["d", "b", "a", "c"])
   end
 
   def test_sort_on_array_with_several_integers
-    skip
-    sorter = BubbleSort.new(["4", "2", "1", "3"])
-    assert_equal ["1", "2", "3", "4"], sorter.sort
+
+    sorter = BubbleSort.new
+    assert_equal ["1", "2", "3", "4"], sorter.sort(["4", "2", "1", "3"])
   end
 
-  def test_if_array_unsortable_due_to_many_types
-    skip
-    #someone tries to pass in a string and an integer at same time?
-    sorter = BubbleSort.new
-    assert_equal error(or something else here??), sorter.sort
-  end
 
 end
