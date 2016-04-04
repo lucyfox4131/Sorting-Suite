@@ -12,7 +12,6 @@ class InsertionSort
         else
           sorted_array_length = sorted_array.length
           insert_index = -1
-
           (0...sorted_array_length).each do |i|
             if element <= sorted_array[i]
               insert_index = i
