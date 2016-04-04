@@ -27,6 +27,3 @@ class InsertionSort
   end
 
 end
-
-sorter = InsertionSort.new
-p sorter.sort([5,7,3,6,2,4,1,10, 0])

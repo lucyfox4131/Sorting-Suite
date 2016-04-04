@@ -13,11 +13,10 @@ class MergeSort
 
 
   def merge(left = [], right = [])
-    sorted_array = []
     if left.empty?
-      sorted_array + right
+      right
     elsif right.empty?
-      sorted_array + left
+      left
     elsif left.first < right.first
       [left.first] + merge(left[1..left.length], right)
     else

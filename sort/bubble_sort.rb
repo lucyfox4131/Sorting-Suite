@@ -1,14 +1,7 @@
-#use a counter
 
 class BubbleSort
-  attr_reader :array
 
-  def initialize()
-    @array = []
-    # @counter ???Should I be using this counter instead of a swapped = false or true
-  end
-
-  def sort(array = @array)
+  def sort(array)
     elements = array.count
     loop do
       swapped = false
