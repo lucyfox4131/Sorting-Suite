@@ -24,5 +24,4 @@ class MergeSort
     end
   end
 
-
 end

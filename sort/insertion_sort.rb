@@ -2,6 +2,7 @@ class InsertionSort
 
   def sort(array)
     sorted_array = []
+
     if array.empty?
       return sorted_array
     else
@@ -17,7 +18,7 @@ class InsertionSort
               break
             end
           end
-          sorted_array.insert( insert_index ,element)
+          sorted_array.insert(insert_index ,element)
         end
       end
     end

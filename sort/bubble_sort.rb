@@ -2,6 +2,7 @@ class BubbleSort
 
   def sort(array)
     elements = array.count
+
     loop do
       swapped = false
       (elements - 1).times do |i|
@@ -10,7 +11,7 @@ class BubbleSort
           swapped = true
         end
       end
-      break if swapped == false
+      break unless swapped
     end
     array
   end
