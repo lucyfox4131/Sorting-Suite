@@ -4,8 +4,6 @@ require '../sort/bubble_sort'
 
 class BubbleSortTest < Minitest::Test
 
-#get tips on pulling out a helper class for testing so don't always have to instantiate same class over and over again
-
   def setup
     @sorter = BubbleSort.new
   end

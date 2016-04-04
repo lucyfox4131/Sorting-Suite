@@ -1,6 +1,5 @@
 class InsertionSort
 
-
   def sort(array)
     sorted_array = []
     if array.empty?

@@ -1,4 +1,3 @@
-
 class BubbleSort
 
   def sort(array)
