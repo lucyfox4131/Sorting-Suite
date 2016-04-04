@@ -27,26 +27,3 @@ class MergeSort
 
 
 end
-
-sorter = MergeSort.new
-p sorter.merge_sort([5,3,2,4,1])
-
-
-
-
-# def merge(left = [], right = [])
-#   sorted_array = []
-#   if left.empty?
-#     sorted_array + right
-#   end
-#   if right.empty?
-#     left
-#   end
-#   if left.first < right.first
-#     [left.first] + merge(left[1..left.length], right)
-#   elsif right.first < left.first
-#     [right.first] + merge(right[1..right.length], left)
-#   end
-#
-# end
-#
