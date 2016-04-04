@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "minitest/pride"
-require './insertion_sort'
+require '../sort/insertion_sort'
 
 class InsertionSortTest < Minitest::Test
 
