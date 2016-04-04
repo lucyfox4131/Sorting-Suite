@@ -1,6 +1,6 @@
 require "minitest/autorun"
 require "minitest/pride"
-require '../sort/bubble_sort'
+require './sort/bubble_sort'
 
 class BubbleSortTest < Minitest::Test
 
@@ -8,12 +8,12 @@ class BubbleSortTest < Minitest::Test
     @sorter = BubbleSort.new
   end
 
-  def test_if_sorter_is_a_new_instance_of_BubbleSort_class
+  def test_it_sorter_is_an_instance_of_the_BubbleSort_class
     assert_equal BubbleSort, @sorter.class
   end
 
   def test_if_empty_array_passed_through
-    assert_equal [],@sorter.sort([])
+    assert_equal [], @sorter.sort([])
   end
 
   def test_if_one_single_element_in_array
